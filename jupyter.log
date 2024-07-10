@@ -1,0 +1,192 @@
+nohup: ignoring input
+[W 20:47:39.427 NotebookApp] Error loading server extension jupyter_lsp
+    Traceback (most recent call last):
+      File "/home/rpierson/anaconda3/envs/secondenvi/lib/python3.11/site-packages/notebook/notebookapp.py", line 2050, in init_server_extensions
+        func(self)
+      File "/home/rpierson/anaconda3/envs/secondenvi/lib/python3.11/site-packages/jupyter_lsp/serverextension.py", line 76, in load_jupyter_server_extension
+        nbapp.io_loop.call_later(0, initialize, nbapp, virtual_documents_uri)
+        ^^^^^^^^^^^^^
+    AttributeError: 'NotebookApp' object has no attribute 'io_loop'
+[I 20:47:39.429 NotebookApp] [jupyter_nbextensions_configurator] enabled 0.6.1
+[W 2024-07-10 20:47:39.619 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-10 20:47:39.619 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-10 20:47:39.619 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-10 20:47:39.619 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2024-07-10 20:47:39.619 LabApp] 'password' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2024-07-10 20:47:39.623 LabApp] JupyterLab extension loaded from /home/rpierson/anaconda3/envs/secondenvi/lib/python3.11/site-packages/jupyterlab
+[I 2024-07-10 20:47:39.623 LabApp] JupyterLab application directory is /home/rpierson/anaconda3/envs/secondenvi/share/jupyter/lab
+[I 2024-07-10 20:47:39.623 LabApp] Extension Manager is 'pypi'.
+[I 20:47:39.626 NotebookApp] Serving notebooks from local directory: /home/rpierson/githubPierson
+[I 20:47:39.626 NotebookApp] Jupyter Notebook 6.5.7 is running at:
+[I 20:47:39.626 NotebookApp] http://qas1:4701/
+[I 20:47:39.626 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 20:47:50.261 NotebookApp] 302 GET /tree/PiersonREU/ (127.0.0.1) 0.580000ms
+[W 20:47:50.299 NotebookApp] 404 GET /tree/PiersonREU (127.0.0.1) 34.640000ms referer=None
+[I 20:47:53.144 NotebookApp] 302 GET / (127.0.0.1) 0.680000ms
+[W 20:47:55.518 NotebookApp] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.524 NotebookApp] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.540 NotebookApp] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.546 NotebookApp] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.579 NotebookApp] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.582 NotebookApp] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.720 NotebookApp] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.723 NotebookApp] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.826 NotebookApp] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.830 NotebookApp] Config option `template_path` not recognized by `LenvsHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.843 NotebookApp] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.847 NotebookApp] Config option `template_path` not recognized by `LenvsTocHTMLExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.873 NotebookApp] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:55.875 NotebookApp] Config option `template_path` not recognized by `LenvsLatexExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:56.009 NotebookApp] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[W 20:47:56.012 NotebookApp] Config option `template_path` not recognized by `LenvsSlidesExporter`.  Did you mean one of: `extra_template_paths, template_name, template_paths`?
+[I 20:47:56.999 NotebookApp] Kernel started: 4937f361-8116-49dc-8d19-51e85579e285, name: python3
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 20:48:03.381 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[I 20:48:04.013 NotebookApp] Kernel restarted: 4937f361-8116-49dc-8d19-51e85579e285
+[I 20:48:04.022 NotebookApp] Restoring connection for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 20:48:04.621 NotebookApp] Replaying 3 buffered messages
+2024-07-10 20:48:05.095224: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 20:48:05.118390: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 20:48:05.118412: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 20:48:05.133321: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 20:48:05.925228: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 20:48:10.215380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 10532 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:85:00.0, compute capability: 6.1
+[I 20:48:33.971 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[I 20:48:36.499 NotebookApp] Kernel restarted: 4937f361-8116-49dc-8d19-51e85579e285
+[I 20:48:36.508 NotebookApp] Restoring connection for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 20:48:37.079 NotebookApp] Replaying 3 buffered messages
+2024-07-10 20:48:37.553350: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 20:48:37.577195: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 20:48:37.577218: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 20:48:37.592197: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 20:48:38.372538: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 20:48:42.679414: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 10532 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:85:00.0, compute capability: 6.1
+[I 20:49:00.343 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[I 20:49:01.979 NotebookApp] Kernel restarted: 4937f361-8116-49dc-8d19-51e85579e285
+[I 20:49:01.988 NotebookApp] Restoring connection for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 20:49:02.554 NotebookApp] Replaying 3 buffered messages
+2024-07-10 20:49:02.975402: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 20:49:02.998188: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 20:49:02.998217: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 20:49:03.012516: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 20:49:03.783720: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 20:49:07.724313: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 10532 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:85:00.0, compute capability: 6.1
+[I 20:49:57.392 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 20:50:58.196 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[I 20:51:00.534 NotebookApp] Kernel restarted: 4937f361-8116-49dc-8d19-51e85579e285
+[I 20:51:00.542 NotebookApp] Restoring connection for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 20:51:01.191 NotebookApp] Replaying 3 buffered messages
+2024-07-10 20:51:01.602001: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 20:51:01.625126: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 20:51:01.625156: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 20:51:01.639850: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 20:51:02.411580: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 20:51:06.344399: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 10532 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:85:00.0, compute capability: 6.1
+[I 20:51:56.991 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 20:53:10.047 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[I 20:53:11.887 NotebookApp] Kernel restarted: 4937f361-8116-49dc-8d19-51e85579e285
+[I 20:53:11.896 NotebookApp] Restoring connection for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 20:53:12.499 NotebookApp] Replaying 3 buffered messages
+2024-07-10 20:53:12.912120: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 20:53:12.934938: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 20:53:12.934965: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 20:53:12.949478: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 20:53:13.725358: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 20:53:17.599146: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 10532 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:85:00.0, compute capability: 6.1
+[I 20:53:56.986 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[W 20:55:30.731 NotebookApp] 404 GET /api/contents/githubPierson?type=directory&_=1720637853727 (127.0.0.1): file or directory does not exist: 'githubPierson'
+[W 20:55:30.731 NotebookApp] file or directory does not exist: 'githubPierson'
+[W 20:55:30.731 NotebookApp] 404 GET /api/contents/githubPierson?type=directory&_=1720637853727 (127.0.0.1) 1.340000ms referer=http://localhost:8080/tree/githubPierson
+[I 20:55:57.372 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 20:57:57.365 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[W 20:57:58.144 NotebookApp] 404 GET /api/contents/githubPierson?type=directory&_=1720637853730 (127.0.0.1): file or directory does not exist: 'githubPierson'
+[W 20:57:58.144 NotebookApp] file or directory does not exist: 'githubPierson'
+[W 20:57:58.144 NotebookApp] 404 GET /api/contents/githubPierson?type=directory&_=1720637853730 (127.0.0.1) 0.980000ms referer=http://localhost:8080/tree/githubPierson
+[I 20:59:57.368 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 21:03:57.365 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[W 21:04:39.167 NotebookApp] 404 GET /api/contents/githubPierson?type=directory&_=1720637853733 (127.0.0.1): file or directory does not exist: 'githubPierson'
+[W 21:04:39.167 NotebookApp] file or directory does not exist: 'githubPierson'
+[W 21:04:39.167 NotebookApp] 404 GET /api/contents/githubPierson?type=directory&_=1720637853733 (127.0.0.1) 1.120000ms referer=http://localhost:8080/tree/githubPierson
+[I 22:36:38.052 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[I 22:36:40.191 NotebookApp] Kernel restarted: 4937f361-8116-49dc-8d19-51e85579e285
+[I 22:36:40.202 NotebookApp] Restoring connection for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 22:36:40.815 NotebookApp] Replaying 3 buffered messages
+2024-07-10 22:36:41.354552: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 22:36:41.378206: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 22:36:41.378234: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 22:36:41.393842: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 22:36:42.158594: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+[I 22:37:56.910 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 22:41:56.890 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 22:43:56.886 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 22:44:48.722 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[I 22:44:50.859 NotebookApp] Kernel restarted: 4937f361-8116-49dc-8d19-51e85579e285
+[I 22:44:50.867 NotebookApp] Restoring connection for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 22:44:51.827 NotebookApp] Replaying 3 buffered messages
+2024-07-10 22:44:52.518901: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 22:44:52.566788: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 22:44:52.566859: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 22:44:52.586806: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 22:44:53.707685: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 22:45:11.815003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1928] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 10532 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1080 Ti, pci bus id: 0000:85:00.0, compute capability: 6.1
+[I 22:45:56.884 NotebookApp] Saving file at /BertModelAttempt.ipynb
+[I 22:46:39.699 NotebookApp] Starting buffering for 4937f361-8116-49dc-8d19-51e85579e285:5a3c6765e630405d8ed66e25dfcd56f9
+[C 22:57:28.476 NotebookApp] received signal 15, stopping
+[I 22:57:28.477 NotebookApp] Shutting down 1 kernel
+[I 22:57:28.478 NotebookApp] Kernel shutdown: 4937f361-8116-49dc-8d19-51e85579e285
+[I 22:57:30.801 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
