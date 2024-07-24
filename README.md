@@ -16,19 +16,23 @@ prioritize bug reports.
 
 ## Installation
 
-Instructions on how to install your project.
+For implementation, this approach uses Jupyter Notebooks and Python. You can access these files in Jupyter Notebooks by git cloning the repository.  
 
 ## Usage
 
-Examples and instructions for using your project.
+If you are planning to implement the entire process we used:
 
-## Contributing
+1) InitialProcessing: Used to upload data
 
-Guidelines for contributing to the project.
+2) TopicModeling: Creating our topics using LDA with the dataset.
 
-## License
+3) TrainingClassifiers: We separated this folder into BERT and Naive Bayes depending on which text classifier you plan to use. Once you have your LDA topics, for each topic you train a text classifier using these codes.
 
-Specify the project's license.
+4) Pipelines: Once you have your topics and text classifiers, the pipelines can be implemented accordingly. To test a dataset using this repository, you simply need the pipelines. To test your dataset with any of the three pipelines, make sure your priority levels are organized using label_map = {'P1': 1, 'P2': 2, 'P3': 3, 'P4': 4, 'P5': 5}. From there, it is easy to compare the results of the pipeline with the actual results. 
+
+Note that you may have to adjust the file names within these codes if you are implementing this process from scratch. 
+
+Examples and instructions for using your project. 
 
 ## Credits
 
