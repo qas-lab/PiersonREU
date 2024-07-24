@@ -1,38 +1,24 @@
 # Automated Bug Report Prioritization in Large Open-Source Projects
 
-There are multiple automated approaches to bug
-triage, though many have proven less effective than the manual
-alternative. These approaches are convenient for the detection of
-duplicate bugs and assigning bugs to various triagers depending
-on their general problem topics. However, automated approaches
-tend to lack the ability to properly categorize bug priority from
-bug reports with accuracy. In this study, we approach the prior-
-itization dilemma through a novel approach to classify bugs into
-their appropriate categories using a multi-faceted technique using
-recent advancements in Natural Language Processing (NLP).
-To this aim, we analyze the natural language used within bug
-reports, using topic modeling and text classification, to properly
-prioritize bug reports.
+There are multiple automated approaches to bug triage, though many have proven less effective than the manual alternative. These approaches are convenient for detecting duplicate bugs and assigning bugs to various triagers depending on their general problem topics. However, automated approaches tend to lack the ability to categorize bug priority from bug reports accurately. In this study, we approach the prioritization dilemma through a novel approach to classify bugs into appropriate categories using a multi-faceted technique using recent advancements in Natural Language Processing (NLP). To this aim, we analyze the natural language used within bug reports, using topic modeling and text classification to prioritize bug reports properly.
 
 ## Installation
 
-For implementation, this approach uses Jupyter Notebooks and Python. You can access these files in Jupyter Notebooks by git cloning the repository.  
+This approach uses Jupyter Notebooks and Python for implementation. You can access these files in Jupyter Notebooks by git cloning the repository.
 
 ## Usage
 
 If you are planning to implement the entire process we used:
 
-1) InitialProcessing: Used to upload data
+1) InitialProcessing: To upload data.
 
 2) TopicModeling: Creating our topics using LDA with the dataset.
 
-3) TrainingClassifiers: We separated this folder into BERT and Naive Bayes depending on which text classifier you plan to use. Once you have your LDA topics, for each topic you train a text classifier using these codes.
+3) TrainingClassifiers: We separated this folder into BERT and Naive Bayes depending on which text classifier you plan to use. Once you have your LDA topics, you train a text classifier for each topic using these codes.
 
-4) Pipelines: Once you have your topics and text classifiers, the pipelines can be implemented accordingly. To test a dataset using this repository, you simply need the pipelines. To test your dataset with any of the three pipelines, make sure your priority levels are organized using label_map = {'P1': 1, 'P2': 2, 'P3': 3, 'P4': 4, 'P5': 5}. From there, it is easy to compare the results of the pipeline with the actual results. 
+4) Pipelines: Once you have your topics and text classifiers, you may implement the pipelines accordingly. To test a dataset using this repository, you must access the pipelines. To test your dataset with any of the three pipelines, make sure your priority levels are organized using label_map = {'P1': 1, 'P2': 2, 'P3': 3, 'P4': 4, 'P5': 5}. From there, it is easy to compare the pipeline and actual results.
 
-Note that you may have to adjust the file names within these codes if you are implementing this process from scratch. 
-
-Examples and instructions for using your project. 
+If implementing this process from scratch, you may have to adjust the file names within these codes.
 
 ## Credits
 
