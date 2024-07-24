@@ -1,4 +1,4 @@
-# Automated Bug Report Prioritization in Large Open-Source Projects !
+# Automated Bug Report Prioritization in Large Open-Source Projects
 
 There are multiple automated approaches to bug
 triage, though many have proven less effective than the manual
